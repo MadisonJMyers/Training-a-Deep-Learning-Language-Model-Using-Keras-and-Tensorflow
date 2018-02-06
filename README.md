@@ -37,42 +37,41 @@ Keras is a deep learning library that you can use in conjunction with Tensorflow
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
 # Watch the Video
-TBD
+Coming soon!
 
 
 # Prerequisites
 
-    1. Have python 3.0 or above installed.
-    2. Install libraries, keras and tensorflow.
-    
 1. Have python 3.0 or above installed.
 
 2. Have required libraries installed. 
 
     * pip.
       For a mac pip comes installed when you install python. Example:
-      ```brew install python```
+      ```
+      brew install python
+      ```
       Otherwise you can try:
-      ```sudo easy install pip```
+      ```
+      sudo easy install pip
+      ```
     * NumPy and SciPy. Once pip is installed. You can use it to install NumPy and SciPy (and gfortran which is needed to compile SciPy):
-      ```pip install numpy```
-      ```brew install gfortran```
-      ```pip install scipy```
+      ```
+      pip install numpy
+      brew install gfortran
+      pip install scipy```
     * Pandas.
-      ```pip install pandas```
+      ```
+      pip install pandas
+      ```
     * zipfile. For python 3.6:
-      ```pip install zipfile36```
-
+      ```
+      pip install zipfile36
+      ```
 
 # Steps
 
 This pattern runs through the steps below. Check out the notebook for the code!
-
-    1. Download and install Keras and Tensorflow.
-    2. Download the yelp data.
-    3. Download the code.
-    4. Train a model.
-    5. Analyze the result.
 
 1. Download and install Keras and Tensorflow.
 
@@ -83,13 +82,17 @@ This pattern runs through the steps below. Check out the notebook for the code!
     You can go to [this](https://keras.io/#getting-started-30-seconds-to-keras) link. 
     You can also just:
     
-        ```pip install keras```
+    ```
+    pip install keras
+    ```
         
     Or you can use git:
     
-        ``` git clone https://github.com/fchollet/keras.git ```
-        ``` cd keras ```
-        ``` sudo python setup.py install ```
+    ```
+    git clone https://github.com/fchollet/keras.git
+    cd keras
+    sudo python setup.py install
+    ```
 
 ![](doc/source/images/Screen%20Shot%202017-12-11%20at%202.10.50%20PM.png)
 
@@ -112,7 +115,9 @@ What we're doing here is defining what characters and punctuation are so that we
 * Make sure you collect all of the files that you downloaded into the same folder. 
 * Then run transfer_learn.py.
 
-    ```python transfer_learn.py```
+    ```
+    python transfer_learn.py
+    ```
 
 * Push enter.
 * Once you've executed you should see tensorflow start up and then various epochs running on your screen followed by generated text with increasing diversities.
