@@ -157,7 +157,7 @@ cd deep-learning-language-model
 * **数据分析 Code Pattern**：喜欢本 Code Pattern 吗？了解我们其他的[数据分析 Code Pattern](https://developer.ibm.com/cn/technologies/data-science/)
 * **AI 和数据 Code Pattern 播放清单**：收藏包含我们所有 Code Pattern 视频的[播放清单](http://i.youku.com/i/UNTI2NTA2NTAw/videos?spm=a2hzp.8244740.0.0)
 * **Data Science Experience**：通过 IBM [Data Science Experience](https://datascience.ibm.com/) 掌握数据科学艺术
-* **Watson Studio**：需要一个 Spark 集群？通过我们的 [Spark 服务](https://console.bluemix.net/catalog/services/apache-spark)，在 IBM Cloud 上创建多达 30 个 Spark 执行程序。
+* **Watson Studio**：需要一个 Spark 集群？通过我们的 [Spark 服务](https://cloud.ibm.com/catalog/services/apache-spark)，在 IBM Cloud 上创建多达 30 个 Spark 执行程序。
 
 # 许可证
 
